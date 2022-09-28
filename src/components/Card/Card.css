@@ -1,0 +1,27 @@
+.card-view img{
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-view{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: aliceblue;
+    border: 2px solid rgb(197, 255, 255);
+    border-radius: 10px;
+    padding-top: 8px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.btn-add{
+    height: 30px;
+    border: none;
+    border-radius: 7px 7px 0 0;
+    background-color: rgb(183, 250, 255);
+    width: 100%;
+}
+
+.btn-add:hover{
+    background-color: rgb(151, 242, 248);
+}

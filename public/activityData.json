@@ -2,15 +2,43 @@
     {
       "id": "1",
       "name": "Running",
-      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+      "image": "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cnVubmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
       "detail": "Running is very important for a sportsman",
       "timeRequired": "30"
     },
     {
         "id": "2",
         "name": "Swimming",
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "image": "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cnVubmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
         "detail": "Swimming is very important for a sportsman",
-        "timeRequired": "30"
+        "timeRequired": "40"
+    },
+    {
+        "id": "2",
+        "name": "Swimming",
+        "image": "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cnVubmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        "detail": "Swimming is very important for a sportsman",
+        "timeRequired": "40"
+    },
+    {
+        "id": "2",
+        "name": "Swimming",
+        "image": "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cnVubmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        "detail": "Swimming is very important for a sportsman",
+        "timeRequired": "40"
+    },
+    {
+        "id": "2",
+        "name": "Swimming",
+        "image": "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cnVubmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        "detail": "Swimming is very important for a sportsman",
+        "timeRequired": "40"
+    },
+    {
+        "id": "2",
+        "name": "Swimming",
+        "image": "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cnVubmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        "detail": "Swimming is very important for a sportsman",
+        "timeRequired": "40"
     }
 ]
