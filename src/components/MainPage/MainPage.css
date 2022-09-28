@@ -3,9 +3,13 @@
     grid-template-columns: 4fr 1fr;
 }
 
-
 .cards-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 20px;
+}
+
+.heading{
+    margin-left: 40px;
+    color: rgb(48, 54, 54);
 }

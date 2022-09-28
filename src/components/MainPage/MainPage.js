@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
+import MyInfo from '../MyInfo/MyInfo';
 import './MainPage.css';
 
 const MainPage = () => {
@@ -14,8 +15,12 @@ const MainPage = () => {
 
 
     return (
-        <div className='main-page'>
+        <div>
+            <h2 className='heading'>Fitness Club</h2>
+            <div className='main-page'>
+            
             <div className='cards-container'>
+            
                 {
                     activities.map(activity => <Card
                         key={activity.id}
@@ -24,9 +29,12 @@ const MainPage = () => {
                 }
             </div>
             <div className='info-container'>
-                <p>My information</p>
+                {/* <p>My information</p> */}
+                <MyInfo></MyInfo>
             </div>
         </div>
+        </div>
+        
     );
 };
 
