@@ -1,20 +1,29 @@
-import React from 'react';
-import './AddBreak.css';
+// import React, { useState } from 'react';
+// import MyInfo from '../MyInfo/MyInfo';
+// import './AddBreak.css';
 
-const AddBreak = () => {
-    return (
-        <div>
-            <div>
-                <h5>Add Break</h5>
-            </div>
-            <div className='btns'>
-                <button>10s</button>
-                <button>20s</button>
-                <button>30s</button>
-                <button>40s</button>
-            </div>
-        </div>
-    );
-};
+// const AddBreak = () => {
 
-export default AddBreak;
+//     const [breakbtn, setBreakBtn] = useState(0);
+
+//     const tenSec = ()=> {
+//         setBreakBtn(10);
+//     }
+
+//     return (
+//         <div>
+//             <MyInfo breakbtn= {breakbtn}></MyInfo>
+//             <div>
+//                 <h5>Add Break</h5>
+//             </div>
+//             <div className='btns'>
+//                 <button onClick={()=> tenSec}>10s</button>
+//                 <button>20s</button>
+//                 <button>30s</button>
+//                 <button>40s</button>
+//             </div>
+//         </div>
+//     );
+// };
+
+// export default AddBreak;

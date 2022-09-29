@@ -1,16 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import image from '../../images/maksud.jpg';
-import AddBreak from '../Add-break/AddBreak';
 import './MyInfo.css';
 
 
 const MyInfo = ({exercise}) => {
+
+    const [breakbtn, setBreakBtn] = useState(0);
+    const storage = localStorage.getItem('Break time')
+    const tenSec = ()=> {
+        setBreakBtn(10);
+        localStorage.setItem('Break time', 10)
+    }
+    const twentySec = ()=> {
+        setBreakBtn(20);
+        localStorage.setItem('Break time', 20)
+    }
+    const thirtySec = ()=> {
+        setBreakBtn(30);
+        localStorage.setItem('Break time', 30)
+    }
+    const fortySec = ()=> {
+        setBreakBtn(40);
+        localStorage.setItem('Break time', 40)
+    }
     
 
     let total = 0;
     for(const exe of exercise){
         total = total + parseFloat(exe.timeRequired);
-        // shipping = shipping + product.shipping;
+        
     }
 
     return (
@@ -36,17 +54,20 @@ const MyInfo = ({exercise}) => {
                 <p className='bmi'>BMI: 19</p>
             </div>
             
-            <div>
-                <AddBreak></AddBreak>
-            </div>
             <div className='exercise-detail'>
                 <div><h5>Exercise Details</h5></div>
                 <div>
                     <p>Exercise Time: {total}</p>
                 </div>
                 <div>
-                    <p>Break Time: </p>
+                    <p>Break Time: {storage}</p>
                 </div>
+            </div>
+            <div className='btns'>
+                <button onClick={tenSec}>10s</button>
+                <button onClick={twentySec}>20s</button>
+                <button onClick={thirtySec}>30s</button>
+                <button onClick={fortySec}>40s</button>
             </div>
         </div>
         
