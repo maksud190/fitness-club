@@ -18,6 +18,7 @@
 .physical-health{
     padding-left: 5px;
     display: flex;
+    justify-content: space-between;
     color: rgb(36, 36, 36);
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
@@ -41,4 +42,8 @@
 .for-sticky{
     position: sticky;
     top: 0;
+}
+
+.exercise-detail{
+    padding-bottom: 80px;
 }

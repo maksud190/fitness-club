@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
-import ExerciseDetail from '../Exercise-details/ExerciseDetail';
+// import ExerciseDetail from '../Exercise-details/ExerciseDetail';
 import MyInfo from '../MyInfo/MyInfo';
 import './MainPage.css';
 
@@ -18,9 +18,13 @@ const MainPage = () => {
 
     const handleAddToExercise = (activities) =>{
         console.log(activities);
+        // const newExercise = [...exercise, activities.timeRequired];
         const newExercise = [...exercise, activities];
         setExercise(newExercise);
     }
+
+
+
 
     return (
         <div>
