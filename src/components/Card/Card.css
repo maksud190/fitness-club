@@ -1,4 +1,5 @@
 .card-view img{
+    margin-left: 65px;
     width: 200px;
     border-radius: 5px 5px 0 0;
 }
@@ -24,4 +25,24 @@
 
 .btn-add:hover{
     background-color: rgb(151, 242, 248);
+}
+
+
+@media screen and (max-width: 576px){
+
+
+    .card-view img{
+        margin-left: 22px;
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .card-view{
+        padding-left: 20px;
+        background-color: aliceblue;
+        border: 2px solid rgb(197, 255, 255);
+        border-radius: 10px;
+        padding-top: 8px;
+        margin-top: 20px;
+    }
 }

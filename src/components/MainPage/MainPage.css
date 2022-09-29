@@ -24,11 +24,27 @@
 }
 
 .heading-container img{
-
     width: 90px;
 }
 
 .heading-container{
     display: inline-block;
     margin-left: 40px;
+}
+
+
+
+@media screen and (max-width: 576px){
+    
+
+    .main-page{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+    }
 }

@@ -22,9 +22,6 @@ const MainPage = () => {
         setExercise(newExercise);
     }
 
-
-
-
     return (
         <div>
             <div className='heading-container'>
