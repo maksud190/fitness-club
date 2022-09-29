@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import image from '../../images/maksud.jpg';
 import './MyInfo.css';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 
 const MyInfo = ({exercise}) => {
@@ -28,9 +30,12 @@ const MyInfo = ({exercise}) => {
     let total = 0;
     for(const exe of exercise){
         total = total + parseFloat(exe.timeRequired);
-        
     }
 
+    
+        const notify = () => toast("Congratulation, you have done well !!");
+
+    
     return (
         <div className='for-sticky'>
             <div className='info-container'>
@@ -53,7 +58,7 @@ const MyInfo = ({exercise}) => {
                 </div>
                 <p className='bmi'>BMI: 19</p>
             </div>
-
+                <h5>Add a Break</h5>
             <div className='btns'>
                 <button onClick={tenSec}>10s</button>
                 <button onClick={twentySec}>20s</button>
@@ -69,6 +74,10 @@ const MyInfo = ({exercise}) => {
                 <div>
                     <p>Break Time: {storage}</p>
                 </div>
+            </div>
+            <div className='toast'>
+                <button onClick={notify}>Notify!</button>
+                <ToastContainer />
             </div>
         </div>
         

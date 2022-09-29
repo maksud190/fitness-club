@@ -76,3 +76,24 @@ h5{
     background-color: rgba(179, 206, 255, 0.315);
     border-radius: 5px;
 }
+
+.toast{
+    text-align: center;
+}
+
+.toast button{
+    border: none;
+    border-radius: 7px;
+    color: rgb(40, 40, 40);
+    background-color: #79d5ff;
+    padding: 10px 40px;
+}
+
+.toast button:hover{
+    cursor: pointer;
+    background-color: #2abbff;
+}
+
+.for-sticky h5{
+    margin-top: 40px;
+}
