@@ -1,0 +1,39 @@
+.info-container img{
+    display: inline-block;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 50%;
+}
+
+.info-container p{
+    padding-left: 10px;
+}
+
+.info-container{
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(240, 255, 255);
+}
+
+.physical-health{
+    padding-left: 5px;
+    display: flex;
+    color: rgb(36, 36, 36);
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bmi{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 0;
+    color: #2bb8fa;
+}
+
+.my-container{
+    margin-top: 5px;
+    padding-bottom: 3px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 2px 2px #cacaca;
+    border-radius: 5px;
+}
