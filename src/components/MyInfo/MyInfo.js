@@ -7,7 +7,7 @@ import './MyInfo.css';
 
 const MyInfo = () => {
     return (
-        <div>
+        <div className='for-sticky'>
             <div className='info-container'>
                 <img src={image} alt="" />
                 <div>

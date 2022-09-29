@@ -7,12 +7,19 @@ const MainPage = () => {
 
     const [activities, setActivities] = useState([]);
 
+    const [exercise, setExercise] = useState([]);
+
     useEffect( () => {
             fetch('activityData.json')
             .then(res => res.json())
             .then(data => setActivities(data))
     },[]);
 
+    const handleAddToExercise = (activities) =>{
+        console.log(activities.timeRequired);
+        const newExercise = [...exercise, activities];
+        setExercise(newExercise);
+    }
 
     return (
         <div>
@@ -25,10 +32,11 @@ const MainPage = () => {
                         activities.map(activity => <Card
                             key={activity.id}
                             activity={activity}
+                            handleAddToExercise={handleAddToExercise}
                         ></Card>)
                     }
                 </div>
-                <div className='info-container'>
+                <div className='activity-side'>
                     {/* <p>My information</p> */}
                     <MyInfo></MyInfo>
                 </div>

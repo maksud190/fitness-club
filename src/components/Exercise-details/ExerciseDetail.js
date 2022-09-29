@@ -1,4 +1,5 @@
 import React from 'react';
+import './ExerciseDetail.css';
 
 const ExerciseDetail = () => {
     return (

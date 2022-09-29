@@ -1,17 +1,14 @@
 import './App.css';
 import Cards from './components/Cards/Cards';
 import MainPage from './components/MainPage/MainPage';
+import QnA from './components/QnA/QnA';
 
 function App() {
   return (
     <div>
       <MainPage></MainPage>
       <Cards></Cards>
-      <div className='qna'>
-          <div>
-            <h4></h4>
-          </div>
-      </div>
+      <QnA></QnA>
     </div>
   );
 }
