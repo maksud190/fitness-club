@@ -19,20 +19,20 @@ const MainPage = () => {
             <h2 className='heading'>Fitness Club</h2>
             <div className='main-page'>
             
-            <div className='cards-container'>
-            
-                {
-                    activities.map(activity => <Card
-                        key={activity.id}
-                        activity={activity}
-                    ></Card>)
-                }
+                <div className='cards-container'>
+                
+                    {
+                        activities.map(activity => <Card
+                            key={activity.id}
+                            activity={activity}
+                        ></Card>)
+                    }
+                </div>
+                <div className='info-container'>
+                    {/* <p>My information</p> */}
+                    <MyInfo></MyInfo>
+                </div>
             </div>
-            <div className='info-container'>
-                {/* <p>My information</p> */}
-                <MyInfo></MyInfo>
-            </div>
-        </div>
         </div>
         
     );

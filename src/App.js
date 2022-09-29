@@ -7,6 +7,11 @@ function App() {
     <div>
       <MainPage></MainPage>
       <Cards></Cards>
+      <div className='qna'>
+          <div>
+            <h4></h4>
+          </div>
+      </div>
     </div>
   );
 }

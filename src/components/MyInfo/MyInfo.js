@@ -1,6 +1,7 @@
 import React from 'react';
 import image from '../../images/maksud.jpg';
 import AddBreak from '../Add-break/AddBreak';
+import ExerciseDetail from '../Exercise-details/ExerciseDetail';
 import './MyInfo.css';
 
 
@@ -32,7 +33,7 @@ const MyInfo = () => {
                 <AddBreak></AddBreak>
             </div>
             <div>
-                
+                <ExerciseDetail></ExerciseDetail>
             </div>
         </div>
         
