@@ -1,11 +1,10 @@
 import React from 'react';
 import image from '../../images/maksud.jpg';
 import AddBreak from '../Add-break/AddBreak';
-import ExerciseDetail from '../Exercise-details/ExerciseDetail';
 import './MyInfo.css';
 
 
-const MyInfo = () => {
+const MyInfo = ({exercise}) => {
     return (
         <div className='for-sticky'>
             <div className='info-container'>
@@ -33,7 +32,13 @@ const MyInfo = () => {
                 <AddBreak></AddBreak>
             </div>
             <div>
-                <ExerciseDetail></ExerciseDetail>
+            <div><h5>Exercise Details</h5></div>
+            <div>
+                <p>Exercise Time: {exercise.length}</p>
+            </div>
+            <div>
+                <p>Break Time: </p>
+            </div>
             </div>
         </div>
         
