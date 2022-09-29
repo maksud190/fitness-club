@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
-// import ExerciseDetail from '../Exercise-details/ExerciseDetail';
 import MyInfo from '../MyInfo/MyInfo';
 import './MainPage.css';
+import logo from '../../images/logo.jpg';
 
 const MainPage = () => {
 
@@ -18,7 +18,6 @@ const MainPage = () => {
 
     const handleAddToExercise = (activities) =>{
         console.log(activities);
-        // const newExercise = [...exercise, activities.timeRequired];
         const newExercise = [...exercise, activities];
         setExercise(newExercise);
     }
@@ -28,7 +27,10 @@ const MainPage = () => {
 
     return (
         <div>
-            <h2 className='heading'>Fitness Club</h2>
+            <div className='heading-container'>
+                <img src={logo} alt="" />
+                <h2 className='heading'>Fitness Club</h2>
+            </div>
             <div className='main-page'>
             
                 <div className='cards-container'>
@@ -42,7 +44,7 @@ const MainPage = () => {
                     }
                 </div>
                 <div className='activity-side'>
-                    {/* <p>My information</p> */}
+                    
                     <MyInfo exercise={exercise}></MyInfo>
                 </div>
             </div>

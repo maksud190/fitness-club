@@ -10,7 +10,8 @@
 }
 
 .heading{
-    margin-left: 40px;
+    display: inline-block;
+    margin-left: 10px;
     color: rgb(48, 54, 54);
 }
 
@@ -20,4 +21,14 @@
     border-radius: 5px;
     background-color: rgba(250, 235, 215, 0.281);
     
+}
+
+.heading-container img{
+
+    width: 90px;
+}
+
+.heading-container{
+    display: inline-block;
+    margin-left: 40px;
 }

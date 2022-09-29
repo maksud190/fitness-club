@@ -40,18 +40,25 @@ const MyInfo = ({exercise}) => {
                 </div>
             </div>
             <div className='my-container'>
-            <div className='physical-health'>
-                <div>
-                    <p>56KG</p>
-                </div>   
-                <div>
-                    <p>5.5fit</p>
-                </div>   
-                <div>
-                    <p>21Years</p>
-                </div>   
-            </div>
+                <div className='physical-health'>
+                    <div>
+                        <p>56KG</p>
+                    </div>   
+                    <div>
+                        <p>5.5fit</p>
+                    </div>   
+                    <div>
+                        <p>21Years</p>
+                    </div>   
+                </div>
                 <p className='bmi'>BMI: 19</p>
+            </div>
+
+            <div className='btns'>
+                <button onClick={tenSec}>10s</button>
+                <button onClick={twentySec}>20s</button>
+                <button onClick={thirtySec}>30s</button>
+                <button onClick={fortySec}>40s</button>
             </div>
             
             <div className='exercise-detail'>
@@ -62,12 +69,6 @@ const MyInfo = ({exercise}) => {
                 <div>
                     <p>Break Time: {storage}</p>
                 </div>
-            </div>
-            <div className='btns'>
-                <button onClick={tenSec}>10s</button>
-                <button onClick={twentySec}>20s</button>
-                <button onClick={thirtySec}>30s</button>
-                <button onClick={fortySec}>40s</button>
             </div>
         </div>
         
